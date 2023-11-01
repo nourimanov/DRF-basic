@@ -41,3 +41,4 @@ class CustomFormAPIView(views.APIView):
 
     def delete(self):
         return response.Response({'status': 'deleted'})
+ 
